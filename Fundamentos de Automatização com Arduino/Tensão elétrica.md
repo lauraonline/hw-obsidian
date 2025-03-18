@@ -1,0 +1,2 @@
+A [[Corrente elétrica]] (ou seja, a energia em forma de elétrons) é movida de um lugar pro outro com a força da tensão elétrica, também conhecida como força eletromotriz (fem) ou diferença de potencial (DDP).
+Ela é medida em Volts (V), e os volts representam a quantidade de energia necessária para mover uma unidade de [[Carga elétrica]] através de um elemento.
