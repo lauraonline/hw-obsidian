@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d95078394a83636",
+            "id": "b50038f0b8ece86f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261.5
   },
   "right": {
     "id": "5acdb66c92cd4470",
@@ -88,6 +88,16 @@
         "id": "ec251c5837065117",
         "type": "tabs",
         "children": [
+          {
+            "id": "6d95078394a83636",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
           {
             "id": "c55b4550ea92294e",
             "type": "leaf",
@@ -162,11 +172,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 516.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,23 +189,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d95078394a83636",
+  "active": "4e06b7abed99e6f7",
   "lastOpenFiles": [
-    "{E188A13A-CA6F-443E-8B85-7366C9E1F659}.png",
-    "Excalidraw/Drawing 2025-03-18 18.27.33.excalidraw.md",
-    "Redes de Computadores/! Introdução-redes.md",
-    "Excalidraw",
-    "Redes de Computadores",
-    "Linguagem de Programação e Orientação à Objetos/! Introdução-poo.md",
-    "Fundamentos de Automatização com Arduino/Tensão elétrica.md",
+    "Redes de Computadores/Local Area Network (LAN).md",
+    "Projeto.md",
+    "Redes de Computadores/Wide Area Network (WAN).md",
+    "Redes de Computadores/Virtual Area Network (VPN).md",
+    "Engenharia de Software Experimental/! Introdução-engsoftexp.md",
     "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
-    "Linguagem de Programação e Orientação à Objetos",
+    "Fundamentos de Automatização com Arduino/AC vs DC.png",
     "Fundamentos de Automatização com Arduino/Carga elétrica.md",
     "Fundamentos de Automatização com Arduino/Corrente elétrica.md",
-    "Fundamentos de Automatização com Arduino/AC vs DC.png",
-    "Engenharia de Software Experimental/! Introdução-engsoftexp.md",
+    "Fundamentos de Automatização com Arduino/Tensão elétrica.md",
+    "Redes de Computadores/Pulso de clock.md",
+    "Redes de Computadores/Roteador.md",
+    "Redes de Computadores/Switch.md",
+    "Redes de Computadores/Network Address Translation (NAT).md",
+    "Redes de Computadores/Dynamic Host Configuration Protocol (DHCP).md",
+    "Redes de Computadores/! Introdução-redes.md",
+    "Redes de Computadores/Endereço IP.md",
+    "Redes de Computadores/Domain Name System (DNS).md",
+    "Redes de Computadores/Porta.md",
+    "Redes de Computadores/Ethernet.md",
+    "WAN.md",
+    "Redes de Computadores/Endereço físico (MAC).md",
+    "Redes de Computadores/Byte.md",
+    "Redes de Computadores/Metropolitan MAN.md",
+    "Redes de Computadores/Bit.md",
+    "{BE708EDD-CFFC-48D0-80C2-362875EF3ABC}.png",
+    "{74F698CF-640B-4706-A290-64C79C99CDBC}.png",
+    "{739D0E41-52F2-40D0-A26C-31F9F1E445CB}.png",
+    "bits.md",
+    "{E188A13A-CA6F-443E-8B85-7366C9E1F659}.png",
+    "Excalidraw/Drawing 2025-03-18 18.27.33.excalidraw.md",
+    "Excalidraw",
+    "Redes de Computadores",
+    "Linguagem de Programação e Orientação à Objetos",
     "Engenharia de Software Experimental",
-    "Welcome.md",
     "Fundamentos de Automatização com Arduino"
   ]
 }
