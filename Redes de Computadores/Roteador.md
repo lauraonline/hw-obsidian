@@ -16,7 +16,7 @@ Dispositivo de rede que encaminha dados entre redes distintas.
 *   CPU (Unidade Central de Processamento)
 *   Memória RAM
 *   Memória Flash (para armazenar o sistema operacional e a configuração)
-*   Interfaces de rede (Ethernet, Wi-Fi, etc.)
+*   Interfaces de rede ([[Ethernet]], Wi-Fi, etc.)
 ## Como Funciona
 1.  O roteador recebe um pacote de dados.
 2.  Ele examina o [[Endereço IP|endereço IP]] de destino do pacote.

@@ -30,3 +30,5 @@ Identificador numérico atribuído a cada dispositivo conectado a uma rede que s
 ## Como obter um endereço
 * **[[Dynamic Host Configuration Protocol (DHCP)|Dinâmico (DHCP)]]**: Atribuído automaticamente por um servidor DHCP.
 * **Estático**: Configurado manualmente.
+## Ver também
+- [[TCP IP (protocolo)]]
