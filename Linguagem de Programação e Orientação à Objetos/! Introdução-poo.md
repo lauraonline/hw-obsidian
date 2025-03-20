@@ -14,6 +14,6 @@ Linguagem [[Linguagem compilada|compilada]] e [[Linguagem interpretada|interpret
 - **Framework**: Biblioteca usada como base para o desenvolvimento de software
 - **Javac**: Compilador de java
 - **.class**: Arquivo de bytecode Java (compilado mas não interpretado)
-- **Java Virtual Machine (JVM)**: Interpretador de java
+- **[[Java#Java Virtual Machine (JVM)|Java Virtual Machine (JVM)]]**: Interpretador de java
 - **[[Application Programming Interface (API)]]**: Bibliotecas de funções
-- **Applets**: Pequenos aplicativos escritos em Java que rodam na JVM do browser.
+- **Applets**: Pequenos aplicativos escritos em Java que rodam na [[Java#Java Virtual Machine (JVM)|JVM]] do browser.
