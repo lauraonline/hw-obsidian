@@ -28,3 +28,9 @@ Ou seja, ao usar um componente externo (como um sensor) que trabalhe com 3.3V, �
 ## [[Resistor|Resistores]]
 Componentes que se opõem à passagem da corrente elétrica, ou seja, oferecem uma resistência.
 É necessário um multímetro para medir a resistência, ou ler o [[Resistor#Código de cores|código de cores]].
+Em geral, com Arduinos, os resistores de 1/4W e 10% de tolerância são suficientes.
+## [[Capacitor|Capacitores]]
+Componentes que armazenam energia na forma de campos elétricos. Compostos por dois terminais condutores, na forma de dois pinos de alumínio, e um material dielétrico. Os tipos usados no Arduino UNO são o [[Capacitor#Eletrolítico|eletrolítico]] e o [[Capacitor#Cerâmico|cerâmico.]]
+## [[Diodo|Diodos]] e LEDs
+Elementos semicondutores que permitem a passagem de [[Corrente elétrica|corrente elétrica]] apenas em uma direção. São compostos por dois terminais, o anodo (+) e o catodo (-). 
+Os LEDs são diodos que usam a corrente pra emitir luz. Um Kit Arduino vem acompanhado de LEDs na cor vermelha, verde e amarelo, as mais tradicionais.
