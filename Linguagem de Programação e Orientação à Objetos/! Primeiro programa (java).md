@@ -47,3 +47,5 @@ Palavra-chave de método pra fazer com que ele não dê um retorno.
 ### Abreviação
 `a += b` é o mesmo comando que `a = a + b`, só que abreviado
 	A abreviação pode ser usada com qualquer operador **aritmético** (`+`, `-`, `*`, `/`, `%`)
+## Exercício
+- Programa de terminal que recebe entrada de dois números e soma os dois
