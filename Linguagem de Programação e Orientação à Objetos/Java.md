@@ -1,4 +1,5 @@
-Linguagem de programação [[Linguagem orientada a objetos|orientada a objetos]] [[Linguagem compilada|compilada]] e [[Linguagem interpretada|interpretada]] desenvolvida pela Sun Microsystems (que foi comprada pela Oracle).
+*Desenvolva uma vez, execute em qualquer lugar*
+Linguagem de programação [[Linguagem orientada a objetos|orientada a objetos]] [[Linguagem compilada|compilada]] e [[Linguagem interpretada|interpretada]] desenvolvida pela Sun Microsystems (hoje Oracle).
 ## História
 Em 1991, na Sun Microsystems, em Mountain View, CA, foi iniciado o **Green Project**, um projeto de planejamento de uma linguagem orientada a objetos. A ideia era fundamentar uma linguagem que pudesse unir lógica entre computadorxes e aparelhos domésticos.
 ### StarSeven
@@ -30,37 +31,63 @@ DIsponibilizado em versões [[#Java Enterprise Edition (Java EE)|EE]], [[#Java S
 - Educação
 - Telefonia
 - Lógica para sistemas embarcados
-## Vantagens
+### Vantagens
 - Portabilização: pode-se escrever um programa que será rodado em qualquer lugar que rode Java
 - O encapsulamento de variáveis permite maior segurança
 - Código organizado e claro
 - Suporte ao Unicode
-## Desvantagens
+### Desvantagens
 - Baixo desempenho quando comparada com linguagens não interpretadas, como C++
 - Número grande de paradigmas e APIs que aumenta a barreira de entrada
 - O código de máquina pode ser utilizado em processos de engenharia reversa, expondo o código-fonte
-## Definições
-- **.java**: Arquivo de código Java
-- **Framework**: Biblioteca usada como base para o desenvolvimento de software
-- **Javac**: Compilador de java
-- **.class**: Arquivo de bytecode Java (compilado mas não interpretado)
-- **[[#Java Virtual Machine (JVM)|Java Virtual Machine (JVM)]]**: Interpretador de java
-- **[[Application Programming Interface (API)]]**: Bibliotecas de funções
-- **Applets**: Pequenos aplicativos escritos em Java que rodam na JVM do browser.
-## Java Runtime Environment (JRE)
+## Ambiente Java
+### Java Runtime Environment (JRE)
 É utilizado pra executar aplicativos feitos com Java. Contém a Java Virtual Machine (JVM) e bibliotecas utilizadas pra compilar o código-fonte.
-## Java Virtual Machine (JVM)
+### Java Virtual Machine (JVM)
 Software que executa os aplicativos Java, traduzindo o bytecode (compilado) para código de máquina. Permite que o mesmo código Java possa ser executado em diversos computadores diferentes, dependendo apenas das limitações de hardware.
-## JAR (.jar)
+### JAR (.jar)
 Extensão de arquivo compactado usado pra armazenar classes compiladas, arquivos diversos e metadados associados com um programa Java.
-## Java Enterprise Edition (Java EE)
+### Java Enterprise Edition (Java EE)
 Plataforma de programação pra **servidores** com Java. 
 - Contém bibliotecas desenvolvidas pra acesso a servidores, sistemas de e-mail, banco de dados, etc.
 - Desenvolvido pra suportar uma grande quantidade de usuários ao mesmo tempo.
-## Java Standard Edition (Java SE)
+### Java Standard Edition (Java SE)
 Plataforma de programação padrão pra Java. Contém o [[#Java Runtime Environment (JRE)|JRE]], as [[Application Programming Interface (API)|APIs]] do Java e outras ferramentas.
 - Edição mais popular, geralmente utilizada pelos programadores iniciantes
 - Voltada pra desenvolvimento para desktops e, secundariamente, servidores
-## Java Micro Edition (Java ME)
+### Java Micro Edition (Java ME)
 Plataforma voltada pra desenvolvimento de aplicações **mobile** e de sistemas embarcados.
 - Contém configurações e bibliotecas trabalhadas ao redor das limitações de hardware que vem com esses dispositivos
+## Hierarquia
+### Pacotes
+São como pastas que contém arquivos de código-fonte, usados para reunir classes semelhantes.
+Fisicamente, ele só gera pastas dentro do sistema de organização de arquivos.
+**Exemplo**: Pacote de gerenciamento de biblioteca
+### Classes
+É um "molde" feito pra criar diferentes objetos com características em comum. Ela define o **comportamento** de seus objetos (ações em que eles podem participar) através de **métodos** e os **estados possíveis** destes objetos (dados atribuídos a eles) através de **atributos**.
+**Exemplo**: Classe `Item`, que representa qualquer item na biblioteca e suas ações no sistema
+### Subclasses
+São classes "filhas" que herdam características das classes "mães", como classes Carro e Moto que herdam características em comum da classe Veículo.
+**Exemplo**: Classe `Livro`, que é filha da classe "item" e representa um de qualquer livro da biblioteca
+#### Objetos
+Um objeto é uma instância única de uma classe. Ele é usado dentro de uma classe e tem atributos, como peso, nome, cor, e métodos, como andar, latir, etc.
+**Exemplo**: Um livro específico (uma instância da classe `Livro`)
+##### Atributos
+Dados específicos sobre um objeto, que descrevem características ou estados do mesmo. Podem ser de vários tipos de dados, e podem ser públicos ou privados.
+**Exemplo**: Estado do livro (No acervo ou sendo emprestado), número de páginas, número de vezes que foi emprestado, etc.
+##### Métodos
+Ação que um objeto pode tomar. É um bloco de código que pode ser reutilizado chamando o método.
+- Muito similar às funções do C++
+**Exemplo**: Método pra fazer a retirada de um livro, método pra calcular multa por atraso de entrega, método em uma classe diferente pra pesquisar por um livro específico na biblioteca
+## Conceitos
+- **.java**: Arquivo de código Java
+- **Framework**: Biblioteca usada como base para o desenvolvimento de software
+- **.class**: Arquivo de bytecode Java (compilado mas não interpretado)
+- **Applets**: Pequenos aplicativos escritos em Java que rodam na JVM do browser.
+### Encapsulamento
+Técnica que envolve proteger os atributos e métodos sensíveis/confidenciais de uma classe e expor uma interface controlada pra interagir com a classe.
+Em Java, consiste em tornar atributos sensíveis privados (palavra-chave `private`), para que só possam ser acessados de dentro da própria classe, e usar getters e setters pra obter o valor de um atributo e modificá-lo respectivamente.
+### Herança
+Conceito que consiste em uma classe ser baseada em outra classe mais abrangente. Por exemplo, uma superclasse (ou classe mãe, ou classe base) `Veículo`, que tem atributos como `marca`, `modelo` e `ano` pode ter seu código reutilizado em uma subclasse (ou classe filha, ou classe derivada) `Carro`, ou `Moto`, que tem atributos mais específicos.
+### Polimorfismo
+Capacidade de uma mesma ação (método) de ser realizada por diferentes objetos de diferentes classes. Por exemplo, um método que qualquer objeto que pertença à superclasse `Veículo` (como um objeto de `Carro` ou `Moto`) pode executar, como `Vender`.
