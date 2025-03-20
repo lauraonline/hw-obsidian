@@ -1,4 +1,5 @@
-Unidade de informação composta por 8 [[Bit|bits]]. É a unidade básica de armazenamento em sistemas computacionais.
+Unidade de informação composta por 8 [[Bit|bits]]. É a unidade básica de armazenamento em sistemas 
+computacionais.
 - Pode representar 256 valores diferentes (2^8)
 - Frequentemente usado para representar um caractere em ASCII
 ## Múltiplos do Byte

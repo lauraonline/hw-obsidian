@@ -1,6 +1,6 @@
 ## Componentes
 
-![[{E188A13A-CA6F-443E-8B85-7366C9E1F659}.png]]
+![[Componentes1.png]]
 1. Mensagem
 	Informações sendo transmitidas (texto, números, figuras, áudio e vídeo)
 2. Emissor
@@ -23,12 +23,12 @@
 	- **Síncrona**: Os dados são enviados sem bits de início e fim, e o receptor faz o trabalho de separar a string contínua de informação e transformá-la numa mensagem legível
 	- **Isócrona**: Os dados são enviados a uma taxa fixa e sincronizada (Ideal para áudio e vídeo em tempo real)
 ### Direção
-![[{BE708EDD-CFFC-48D0-80C2-362875EF3ABC}.png]]
+![[Direção1.png]]
 - **Simplex**: Transmissão de mão-única. Não há retorno do receptor. (Televisão, rádio, periféricos de computador como mouse, teclado)
 - **Half-duplex**: Transmissão de mão-dupla não-simultânea. Há retorno do receptor, mas apenas depois do recebimento completo da mensagem do emissor.
 - **Full-duplex**: Transmissão de mão-dupla simultânea. O meio pode ter dois caminhos (ida e volta), ou a capacidade do meio é dividida em dois canais que trafegam ambas as direções
 ## A Internet
-![[{74F698CF-640B-4706-A290-64C79C99CDBC}.png]]
+![[Componentes2.png]]
 
 ## Modelo OSI (ISO)
 ### 7 camadas

@@ -8,45 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b50038f0b8ece86f",
+            "id": "ff2d01fa199b5a5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes de Computadores/Protocolo (redes).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Protocolo (redes)"
-            }
-          },
-          {
-            "id": "8901dde718155026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes de Computadores/! Introdução-redes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "! Introdução-redes"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TCP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 345.5
   },
   "right": {
     "id": "5acdb66c92cd4470",
@@ -214,42 +185,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e06b7abed99e6f7",
+  "active": "ff2d01fa199b5a5e",
   "lastOpenFiles": [
+    "Linguagem de Programação e Orientação à Objetos/! Primeiro programa (java).md",
+    "Linguagem de Programação e Orientação à Objetos/Linguagem orientada a objetos.md",
+    "Linguagem de Programação e Orientação à Objetos/Linguagem interpretada.md",
+    "Linguagem de Programação e Orientação à Objetos/Linguagem compilada.md",
+    "fotos/Código de cor1.png",
+    "Linguagem de Programação e Orientação à Objetos/! Introdução-poo.md",
+    "Redes de Computadores/! Introdução-redes.md",
+    "Linguagem de Programação e Orientação à Objetos/Camelcase.md",
+    "Linguagem de Programação e Orientação à Objetos/Java.md",
+    "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
+    "Fundamentos de Automatização com Arduino/Resistor.md",
+    "fotos/Cores resistor1.png",
+    "Fundamentos de Automatização com Arduino/Tensão elétrica.md",
+    "Fundamentos de Automatização com Arduino/Carga elétrica.md",
+    "Fundamentos de Automatização com Arduino/Corrente elétrica.md",
+    "Fundamentos de Automatização com Arduino/Potência.md",
+    "Redes de Computadores/Ethernet.md",
+    "Redes de Computadores/Byte.md",
+    "Redes de Computadores/Application Programming Interface (API).md",
+    "fotos/Ethernet1.png",
+    "fotos/IP1.png",
+    "fotos/Direção1.png",
+    "fotos/Componentes2.png",
+    "fotos/Componentes1.png",
+    "fotos/AC vs DC1.png",
+    "fotos",
+    "{739D0E41-52F2-40D0-A26C-31F9F1E445CB}.png",
     "Redes de Computadores/Endereço IP.md",
     "Redes de Computadores/TCP IP (protocolo).md",
-    "Redes de Computadores/! Introdução-redes.md",
     "Redes de Computadores/Protocolo (redes).md",
     "Redes de Computadores/Network Interface Card (NIC).md",
-    "{90E69F36-84B0-466C-B509-7CCD3C9E1D60}.png",
-    "{2BF53378-C204-4CDE-B7E9-B0254C3647B6}.png",
     "Redes de Computadores/File Transfer Protocol (FTP).md",
     "TCP/IP (protocolo).md",
     "TCP",
-    "Redes de Computadores/Application Programming Interface (API).md",
     "Redes de Computadores/Local Area Network (LAN).md",
-    "Redes de Computadores/Ethernet.md",
     "Redes de Computadores/Endereço físico (MAC).md",
-    "Redes de Computadores/Bit.md",
-    "Redes de Computadores/Roteador.md",
-    "Redes de Computadores/Hub (ethernet).md",
-    "Redes de Computadores/Porta (redes).md",
-    "Redes de Computadores/Network Address Translation (NAT).md",
-    "Redes de Computadores/Switch.md",
-    "Redes de Computadores/Byte.md",
-    "Redes de Computadores/Domain Name System (DNS).md",
-    "Projeto.md",
-    "Redes de Computadores/Wide Area Network (WAN).md",
-    "Redes de Computadores/Virtual Area Network (VPN).md",
-    "Engenharia de Software Experimental/! Introdução-engsoftexp.md",
-    "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
-    "Fundamentos de Automatização com Arduino/AC vs DC.png",
-    "Fundamentos de Automatização com Arduino/Carga elétrica.md",
-    "Fundamentos de Automatização com Arduino/Corrente elétrica.md",
-    "{BE708EDD-CFFC-48D0-80C2-362875EF3ABC}.png",
-    "{74F698CF-640B-4706-A290-64C79C99CDBC}.png",
-    "{739D0E41-52F2-40D0-A26C-31F9F1E445CB}.png",
-    "{E188A13A-CA6F-443E-8B85-7366C9E1F659}.png",
     "Excalidraw",
     "Redes de Computadores",
     "Linguagem de Programação e Orientação à Objetos",

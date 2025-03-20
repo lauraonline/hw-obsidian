@@ -7,13 +7,13 @@ Uma convenção, padrão e/ou conjunto de regras que rege a conexão, comunicaç
 ### Sintaxe
 - Estrutura, ordem ou o formato dos dados
 - Exemplo: [[Ethernet]] ([[! Introdução-redes#Modelo OSI (ISO)|camada 2]])
-	![[{2BF53378-C204-4CDE-B7E9-B0254C3647B6}.png]]
+	![[Ethernet1.png]]
 ### Semântica
 - Significado de cada amontoado de bits
 - Como o determinado padrão apresentado deve ser interpretado
 	- Quais ações devem ser tomadas com base nessa interpretação
 - Exemplo: [[TCP IP (protocolo)#IP|Pacote IP]] ([[! Introdução-redes#Modelo OSI (ISO)|camada 3]])
-	![[{90E69F36-84B0-466C-B509-7CCD3C9E1D60}.png]]
+	![[IP1.png]]
 ### Timing
 - Quando os dados devem ser enviados
 - Com que frequência os dados devem ser enviados
