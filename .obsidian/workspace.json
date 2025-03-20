@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagem de Programação e Orientação à Objetos/Java.md",
+                "file": "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "! Introdução-arduino"
             }
           }
         ]
@@ -45,6 +45,16 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "bfb8f875b8712c8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -100,13 +110,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagem de Programação e Orientação à Objetos/Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Java"
+              "title": "Outline"
             }
           },
           {
@@ -145,13 +154,28 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "610c042df5208099",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 396.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,13 +191,14 @@
   },
   "active": "4e06b7abed99e6f7",
   "lastOpenFiles": [
+    "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
+    "Linguagem de Programação e Orientação à Objetos/! Tipos primitivos (java).md",
+    "Linguagem de Programação e Orientação à Objetos/Java.md",
+    "Linguagem de Programação e Orientação à Objetos/! Primeiro programa (java).md",
     "Linguagem de Programação e Orientação à Objetos/! Introdução-poo.md",
     "Untitled.canvas",
-    "Linguagem de Programação e Orientação à Objetos/! Primeiro programa (java).md",
-    "Linguagem de Programação e Orientação à Objetos/Java.md",
     "Linguagem de Programação e Orientação à Objetos/Camelcase.md",
     "Linguagem de Programação e Orientação à Objetos/Application Programming Interface (API).md",
-    "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
     "Fundamentos de Automatização com Arduino/Diodo.md",
     "Fundamentos de Automatização com Arduino/Tensão elétrica.md",
     "fotos/LED1.png",

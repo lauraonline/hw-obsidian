@@ -43,6 +43,8 @@ DIsponibilizado em versões [[#Java Enterprise Edition (Java EE)|EE]], [[#Java S
 ## Ambiente Java
 ### Java Runtime Environment (JRE)
 É utilizado pra executar aplicativos feitos com Java. Contém a Java Virtual Machine (JVM) e bibliotecas utilizadas pra compilar o código-fonte.
+### Javac
+Compilador de Java incluído no JRE. Com o comando `javac [Arquivo .java]`, pode transformar arquivos .java em .class (bytecode a ser interpretado pela JVM)
 ### Java Virtual Machine (JVM)
 Software que executa os aplicativos Java, traduzindo o bytecode (compilado) para código de máquina. Permite que o mesmo código Java possa ser executado em diversos computadores diferentes, dependendo apenas das limitações de hardware.
 ### JAR (.jar)
@@ -58,6 +60,21 @@ Plataforma de programação padrão pra Java. Contém o [[#Java Runtime Environm
 ### Java Micro Edition (Java ME)
 Plataforma voltada pra desenvolvimento de aplicações **mobile** e de sistemas embarcados.
 - Contém configurações e bibliotecas trabalhadas ao redor das limitações de hardware que vem com esses dispositivos
+## Convenções
+- **Nome do projeto**: [[Camelcase]]
+- **Nome de pacote**: Tudo minúsculo, começando com o nome do website da empresa invertido. Exemplo: uk.lauraonline.devdojojava
+- **Nome de classe**: [[Camelcase]]
+- **Nome de variável**: Primeira letra minúscula, depois, [[Camelcase]]
+## Comentários
+**Uma linha/inline**: `//`
+**Várias linhas**: `/*` no começo e `*/` no final
+**Javadoc (várias linhas)**: `/**` no começo e `*/` no final
+## Casting
+Ato de denotar o [[! Tipos primitivos (java)#Tipos|tipo de variável]] com qual interpretar o valor de uma variável.
+**Por exemplo**:
+`float salario 2543.79F` Por padrão, o compilador prefere que esse valor fosse atribuído a uma variável `double`, mas colocando F na frente do número, ele sobrepõe o padrão.
+ Similarmente, pode-se escrever da maneira `float salario (float) 2543.79`, e terá o mesmo efeito.
+ Essa técnica pode ser utilizada pra "forçar" tipos menores a aceitar valores maiores, como fazer um valor long caber numa variável int, mesmo que seja grande demais, mas isso não é recomendado.
 ## Hierarquia
 ### Pacotes
 São como pastas que contém arquivos de código-fonte, usados para reunir classes semelhantes.

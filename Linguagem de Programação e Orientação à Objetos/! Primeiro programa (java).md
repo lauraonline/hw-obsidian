@@ -3,8 +3,9 @@
 - **Nome de pacote**: Tudo minúsculo
 - **Nome de classe**: [[Camelcase]]
 ## Comentários
-Uma linha/inline: `\\`
-Várias linhas: `\*` no começo e `*\` no final
+**Uma linha/inline**: `//`
+**Várias linhas**: `/*` no começo e `*/` no final
+**Javadoc (várias linhas)**: `/**` no começo e `*/` no final
 ## Hierarquia
 ### Pacotes
 São como pastas que contém arquivos de código-fonte, usados para reunir classes semelhantes.
