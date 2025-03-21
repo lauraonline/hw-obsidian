@@ -50,3 +50,7 @@ Palavra-chave de método pra fazer com que ele não dê um retorno.
 	A abreviação pode ser usada com qualquer operador **aritmético** (`+`, `-`, `*`, `/`, `%`)
 ## Exercício
 - Programa de terminal que recebe entrada de dois números e soma os dois
+## Ver também
+- [[Java#Hierarquia]]
+- [[Java#Convenções]]
+- [[Java#Comentários]]

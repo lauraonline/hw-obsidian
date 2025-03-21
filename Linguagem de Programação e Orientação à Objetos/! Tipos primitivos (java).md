@@ -21,7 +21,7 @@ Tipos primitivos de variáveis:
 	**Tamanho**: 4 [[Byte|bytes]]
 	**Alcance**: de 3.4e-38 a 3.4e38
 - `double`
-	Números reais grandes.
+	Números reais calculados com maior precisão.
 	**Tamanho**: 8 [[Byte|bytes]]
 	**Alcance**: de 1.7e-308 a 1.7e308 
 - `char`
@@ -43,3 +43,5 @@ Ato de denotar o tipo de variável com qual interpretar o valor de uma variável
 É usada pra armazenar cadeias de caracteres.
 - Pode ser usada igual uma variável primitiva, com exceção da capitalização
 - Não tem limite de tamanho
+## Ver também
+- [[Java#Casting]]
