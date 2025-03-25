@@ -1,0 +1,1 @@
+Ocorre quando um software faz uma solicitação para que o sistema operacional faça uma tarefa que só pode ser executada pelo mesmo.

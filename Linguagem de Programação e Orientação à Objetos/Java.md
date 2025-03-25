@@ -112,7 +112,7 @@ Capacidade de uma mesma ação (método) de ser realizada por diferentes objetos
 Usado pra atribuir um resultado de if/else a uma variável.
 Sintaxe: `condicao ? verdadeiro : falso`.
 Por exemplo:
-```
+```java
 public static void main (String[] args) {  
     float salario = 6000F;  
     String mensagemComprarPlay5 = "Vou comprar um PS5";  
@@ -125,7 +125,7 @@ Caso a `condicao` seja verdadeira, o valor em `verdadeiro` será atribuído à v
 ## Switch
 Usado pra condicionar várias ações ao valor de uma variável.
 Por exemplo:
-```
+```java
 public static void main (String[] args) {  
     byte numeroDiaDaSemana = 4;  
     String nomeDiaDaSemana = null;  
@@ -149,3 +149,51 @@ public static void main (String[] args) {
 }
 ```
 Caso a variável (`dia`) tenha o valor em `case` (1-7), o código dentro do case será executado.
+## Break e continue
+O break faz com que o compilador salte pra fora de qualquer estrutura de repetição.
+Por exemplo:
+```java
+public static void main (String[] args) {  
+    int valorMax = 50;  
+    for (int i = 1; i <= valorMax; i++) {  
+        if (i > 25) {  
+            break;  
+        }  
+        System.out.println(i);  
+    }  
+}
+```
+Mesmo que o `for` faça com que o `i` vá até 50, por causa da condicional `if (i > 25)`, quando o `i` for maior que 25, ele ativa o `break` e sai do loop antes de imprimir.
+
+O continue com que o compilador pule uma iteração no loop, e continue depois dela.
+Por exemplo:
+```java
+public static void main (String[] args) {
+	for (int i = 1; i <= 10; i++) {
+	  if (i == 4) {
+	    continue;
+	  }
+	  System.out.println(i);
+	}
+}
+```
+O for conta os números de 1 até 10, mas pula o número 4. 
+## Arrays
+Declarados com uma forma de referência com a forma de objeto atribuída. Por exemplo:
+```java
+public static void main (String[] args) {  
+    int[] idades = new int[3];
+    idades[0] = 15;  
+    idades[1] = 21;  
+    idades[2] = 25;
+}
+```
+Valores padrão:
+- byte, short, int, long, double: `0`
+- char: `'\u0000'`, ou `' '`
+- boolean: `false`
+- String: `null`
+**Ver também:** [[! Arrays#Foreach|Foreach]], [[! Arrays#Propriedades|Propriedades]]
+### Arrays multidimensionais
+Compostos por arrays base, que contém endereços de memória dos sub-arrays.
+**Ver também:** [[! Arrays#Foreach (arrays multidimensionais)|Foreach (arrays multidimensionais)]], [[! Arrays#Inicialização|Inicialização]]

@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77d6b98bedd19edf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "! Introdução-arduino"
-            }
-          },
-          {
             "id": "259dd0b7a14caddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagem de Programação e Orientação à Objetos/! Operador ternário, switch.md",
+                "file": "Linguagem de Programação e Orientação à Objetos/Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "! Operador ternário, switch"
+              "title": "Java"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,6 +55,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6c3e2c429173f6fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -125,13 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagem de Programação e Orientação à Objetos/! Operador ternário, switch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ! Operador ternário, switch"
+              "title": "Outline"
             }
           },
           {
@@ -155,23 +156,6 @@
             }
           },
           {
-            "id": "6c3e2c429173f6fc",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "JVM",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
             "id": "610c042df5208099",
             "type": "leaf",
             "state": {
@@ -191,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,15 +189,28 @@
       "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "259dd0b7a14caddb",
+  "active": "4e06b7abed99e6f7",
   "lastOpenFiles": [
-    "Linguagem de Programação e Orientação à Objetos/Application Programming Interface (API).md",
-    "Linguagem de Programação e Orientação à Objetos/! Introdução-poo.md",
-    "Linguagem de Programação e Orientação à Objetos/! Operador ternário, switch.md",
-    "Linguagem de Programação e Orientação à Objetos/! Primeiro programa (java).md",
-    "Linguagem de Programação e Orientação à Objetos/! Tipos primitivos (java).md",
     "Linguagem de Programação e Orientação à Objetos/Java.md",
+    "Linguagem de Programação e Orientação à Objetos/! Arrays.md",
+    "fotos/ArrayMultidimensionalTamanhosDiferentes1.png",
+    "fotos/ArrayMultidimensionalInicializado1.png",
+    "Linguagem de Programação e Orientação à Objetos/Linguagem orientada a objetos.md",
+    "Linguagem de Programação e Orientação à Objetos/Application Programming Interface (API).md",
+    "fotos/Array multidimensional1.png",
+    "Linguagem de Programação e Orientação à Objetos/! Introdução-poo.md",
+    "Linguagem de Programação e Orientação à Objetos/! Primeiro programa (java).md",
+    "Linguagem de Programação e Orientação à Objetos/! Break, continue.md",
+    "Linguagem de Programação e Orientação à Objetos/! Operador ternário, switch.md",
+    "Sistemas Operacionais/! Tipos e estruturas (SO).md",
+    "Java Virtual Machine (JVM).md",
+    "fotos/Capacitor eletrolítico1.png",
+    "fotos/Capacitor eletrolitico1.png",
+    "fotos/Capacitor ceramico1.png",
+    "Sistemas Operacionais/System call.md",
+    "Sistemas Operacionais",
     "Fundamentos de Automatização com Arduino/! Introdução-arduino.md",
+    "Linguagem de Programação e Orientação à Objetos/! Tipos primitivos (java).md",
     "Untitled.canvas",
     "Linguagem de Programação e Orientação à Objetos/Camelcase.md",
     "Fundamentos de Automatização com Arduino/Diodo.md",
@@ -221,30 +218,17 @@
     "fotos/LED1.png",
     "fotos/Componentes2.png",
     "fotos/Componentes1.png",
-    "fotos/Capacitor eletrolitico1.png",
     "fotos/Diodo1.png",
-    "fotos/Capacitor ceramico1.png",
     "Fundamentos de Automatização com Arduino/Capacitor.md",
-    "fotos/Capacitor eletrolítico1.png",
     "Fundamentos de Automatização com Arduino/Resistor.md",
     "Fundamentos de Automatização com Arduino/Carga elétrica.md",
-    "fotos/JDK1.png",
     "Redes de Computadores/! Introdução-redes.md",
     "Linguagem de Programação e Orientação à Objetos/Linguagem compilada.md",
     "Linguagem de Programação e Orientação à Objetos/Linguagem interpretada.md",
-    "Linguagem de Programação e Orientação à Objetos/Linguagem orientada a objetos.md",
-    "fotos/Código de cor1.png",
-    "fotos/Cores resistor1.png",
     "Fundamentos de Automatização com Arduino/Corrente elétrica.md",
     "Fundamentos de Automatização com Arduino/Potência.md",
     "Redes de Computadores/Ethernet.md",
-    "Redes de Computadores/Byte.md",
     "fotos",
-    "Redes de Computadores/Endereço IP.md",
-    "Redes de Computadores/TCP IP (protocolo).md",
-    "Redes de Computadores/Protocolo (redes).md",
-    "Redes de Computadores/Network Interface Card (NIC).md",
-    "Redes de Computadores/File Transfer Protocol (FTP).md",
     "TCP",
     "Excalidraw",
     "Redes de Computadores",

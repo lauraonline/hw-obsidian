@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -33,6 +33,13 @@
       "color": {
         "a": 1,
         "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Sistemas Operacionais\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
       }
     }
   ],
