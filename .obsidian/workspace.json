@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linguagem de Programação e Orientação à Objetos/Java.md",
+                "file": "Linguagem de Programação e Orientação à Objetos/Classe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "Classe"
             }
           }
         ]
@@ -189,9 +189,10 @@
       "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "4e06b7abed99e6f7",
+  "active": "259dd0b7a14caddb",
   "lastOpenFiles": [
     "Linguagem de Programação e Orientação à Objetos/Java.md",
+    "Linguagem de Programação e Orientação à Objetos/Classe.md",
     "Linguagem de Programação e Orientação à Objetos/! Arrays.md",
     "fotos/ArrayMultidimensionalTamanhosDiferentes1.png",
     "fotos/ArrayMultidimensionalInicializado1.png",
